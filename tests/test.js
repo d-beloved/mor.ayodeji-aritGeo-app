@@ -21,3 +21,15 @@
       });
 
     });
+
+    describe("Case for a non-number array", function() {
+
+      it("should return invalid for a non-number array", function() {
+        assert.equal(aritGeo(['book', '4', '10'])).toEqual("invalid");
+      });
+
+      it("should return invalid for a non-number array", function() {
+        assert.equal(aritGeo(['book', 'height', 'i'])).toEqual("invalid");
+      });
+
+    });
