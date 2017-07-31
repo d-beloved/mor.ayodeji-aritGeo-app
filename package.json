@@ -1,0 +1,22 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "A simple program to test if an array entered by the user is Arithmetic or geometric",
+  "main": "src/aritGeo.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Mor.Ayodeji",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
