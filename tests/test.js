@@ -13,3 +13,11 @@
       });
 
     });
+
+    describe("Case for an empty array", function() {
+
+      it("should return 0 for an empty array", function() {
+        assert.equal(aritGeo([])).toEqual(0);
+      });
+
+    });
