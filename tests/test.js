@@ -56,16 +56,16 @@
 
     describe("Case for neither arithmetic nor geometric sequence", function() {
 
-      it("should return -1 for [1, 2, 3, 5, 8]", function() {
-        assert.equal(aritGeo([1, 2, 3, 5, 8]), -1);
+      it("should return -1 for [34,56,12,9,10,11]", function() {
+        assert.equal(aritGeo([34,56,12,9,10,11]), -1);
       });
 
-      it("should return -1 for [1, 3, 6, 10, 15]", function() {
-        assert.equal(aritGeo([1, 3, 6, 10, 15]), -1);
+      it("should return -1 for [1, 2, 3, 4, 5, 6, 6, 8]", function() {
+        assert.equal(aritGeo([1, 2, 3, 4, 5, 6, 6, 8]), -1);
       });
 
-      it("should return -1 for [1, 8, 27, 64, 125]", function() {
-        assert.equal(aritGeo([1, 8, 27, 64, 125]), -1);
+      it("should return -1 for [23,1,5,10,20]", function() {
+        assert.equal(aritGeo([23,1,5,10,20]), -1);
       });
       
     });
